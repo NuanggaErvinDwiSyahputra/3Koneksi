@@ -709,3 +709,26 @@ textarea {
     height: 50px;
     border-radius: 50%;
     background: rgba(59, 93, 80, 0.2); }
+
+/* Login Page
+.logo span,
+.link-register a{
+    color: #917FB3 !important;
+}
+
+/* .right {
+    background: url("../images/bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+} */
+
+.content-login {
+    padding: 3rem 6rem;
+}
+.btn-signup,
+.content-hero button {
+    background-color: #917FB3 !important;
+    padding: 10px 25px;
+} */
