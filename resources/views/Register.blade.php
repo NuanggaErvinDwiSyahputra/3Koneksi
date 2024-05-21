@@ -91,19 +91,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <input type="text" class="form-control input" id="totalpromosi" name="promosi"
                             placeholder="Total" disabled>
                     </div>
+                    <label for="nama" class="form-label text-white">Paket Sponsorship</label><br>
                     <label><input type="radio" name="plan" value="silver" onchange="changeAmount()"> Silver</label><br>
                     <label><input type="radio" name="plan" value="gold" onchange="changeAmount()"> Gold</label><br>
                     <label><input type="radio" name="plan" value="platinum" onchange="changeAmount()"> Platinum</label><br>
                     <label for="amount">Enter Amount:</label><br>
                     <input type="number" id="amount" name="amount" value="0"><br><br>
-                    <div class="wthree-text">
+                    <!-- <div class="wthree-text">
                         <label class="anim">
                             <input type="checkbox" class="checkbox" required="">
                             <span>I Agree To The Terms & Conditions</span>
                         </label>
                         
                         <div class="clear"> </div>
-                    </div>
+                    </div> -->
                     <input type="submit" value="REGISTER">
                 </form>
                 <!-- <p>Don't have an Account? <a href="#"> Login Now!</a></p> -->

@@ -30,7 +30,7 @@
 		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 
 			<div class="container">
-				<a class="navbar-brand" href="index.html">3ONEKSI</a>
+				<a class="navbar-brand" href="index.html">3Koneksi</a>
 
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -41,16 +41,16 @@
 						<li class="nav-item active">
 							<a class="nav-link" href="index.html">Home</a>
 						</li>
-						<li><a class="nav-link" href="shop.html">Shop</a></li>
+						<!-- <li><a class="nav-link" href="shop.html">Shop</a></li>
 						<li><a class="nav-link" href="about.html">About us</a></li>
 						<li><a class="nav-link" href="services.html">Services</a></li>
 						<li><a class="nav-link" href="blog.html">Blog</a></li>
-						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+						<li><a class="nav-link" href="contact.html">Contact us</a></li> -->
 					</ul>
 
 					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
 						<li><a class="nav-link" href="#"><img src="{{ asset('images/user.svg') }}"></a></li>
-						<li><a class="nav-link" href="cart.html"><img src="{{ asset('images/cart.svg') }}"></a></li>
+						
 					</ul>
 				</div>
 			</div>
@@ -64,8 +64,8 @@
 					<div class="row justify-content-between">
 						<div class="col-lg-5">
 							<div class="intro-excerpt">
-								<h1>Modern Interior <span class="d-block">Design Studio</span></h1>
-								<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+								<h1>Decoration <span class="d-block">Interior Design</span></h1>
+								<p class="mb-4">Tiga Koneksi is a Professional Exhibition Organizer which has been established since 2018. As a growing exhibition contraktor, Tiga Koneksi is powered by solid team of experts and passionate people to serve all the needs of exhibition project at competitive prices. We help our valued customers to achieve their goals and succeed in their memorable moment of exhibit. And we do it with passion</p>
 								<p><a href="" class="btn btn-secondary me-2">Register</a></p>
 								<!-- <a href="#" class="btn btn-white-outline">Explore</a> -->
 							</div>
@@ -81,20 +81,20 @@
 		<!-- End Hero Section -->
 
 		<!-- Start Product Section -->
-		<div class="product-section">
+		<!-- <div class="product-section">
 			<div class="container">
 				<div class="row">
 
 					<!-- Start Column 1 -->
-					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+					<!-- <div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
 						<h2 class="mb-4 section-title">Crafted with excellent material.</h2>
 						<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. </p>
 						<p><a href="shop.html" class="btn">Explore</a></p>
-					</div> 
+					</div>  --> -->
 					<!-- End Column 1 -->
 
 					<!-- Start Column 2 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+					<!-- <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="cart.html">
 							<img src="images/product-1.png" class="img-fluid product-thumbnail">
 							<h3 class="product-title">Nordic Chair</h3>
@@ -104,11 +104,11 @@
 								<img src="images/cross.svg" class="img-fluid">
 							</span>
 						</a>
-					</div> 
+					</div>  -->
 					<!-- End Column 2 -->
 
 					<!-- Start Column 3 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+					<!-- <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="cart.html">
 							<img src="images/product-2.png" class="img-fluid product-thumbnail">
 							<h3 class="product-title">Kruzo Aero Chair</h3>
@@ -118,11 +118,11 @@
 								<img src="images/cross.svg" class="img-fluid">
 							</span>
 						</a>
-					</div>
+					</div> -->
 					<!-- End Column 3 -->
 
 					<!-- Start Column 4 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+					<!-- <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="cart.html">
 							<img src="images/product-3.png" class="img-fluid product-thumbnail">
 							<h3 class="product-title">Ergonomic Chair</h3>
@@ -132,7 +132,7 @@
 								<img src="images/cross.svg" class="img-fluid">
 							</span>
 						</a>
-					</div>
+					</div> -->
 					<!-- End Column 4 -->
 
 				</div>
@@ -146,16 +146,15 @@
 				<div class="row justify-content-between">
 					<div class="col-lg-6">
 						<h2 class="section-title">Why Choose Us</h2>
-						<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
-
+						<p>Tiga Koneksi is a specialist in the field of creative design and construction for Exhibition Booth, Special Event, Meeting and Conference, Mall to Mall events, Road Show Events, Product launching, and Temporary Hall. </p>
 						<div class="row my-5">
 							<div class="col-6 col-md-6">
 								<div class="feature">
 									<div class="icon">
 										<img src="images/truck.svg" alt="Image" class="imf-fluid">
 									</div>
-									<h3>Fast &amp; Free Shipping</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+									<h3>Remarkable Design</h3>
+									<p>Our creative people are very passionate to explorer fresh ideas and transform it into a remarkable design</p>
 								</div>
 							</div>
 
@@ -164,8 +163,8 @@
 									<div class="icon">
 										<img src="images/bag.svg" alt="Image" class="imf-fluid">
 									</div>
-									<h3>Easy to Shop</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+									<h3>Excellent Excution</h3>
+									<p>We realized that creativity alone, is not enough. Therefore we have a strong commitment to mantain our work quality. Using good material, and handled carefully by expert and experienced people, we turn the creativity into an our standing booth</p>
 								</div>
 							</div>
 
@@ -174,8 +173,8 @@
 									<div class="icon">
 										<img src="images/support.svg" alt="Image" class="imf-fluid">
 									</div>
-									<h3>24/7 Support</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+									<h3>On Time Completion</h3>
+									<p>In this dynamic exhibition industry, time becomes a major variable that determiner the final result of your booth. We apply a good project management which will results to on a on time booth completion</p>
 								</div>
 							</div>
 
@@ -184,8 +183,18 @@
 									<div class="icon">
 										<img src="images/return.svg" alt="Image" class="imf-fluid">
 									</div>
-									<h3>Hassle Free Returns</h3>
-									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+									<h3>Competitive Price</h3>
+									<p>We emphasize efficiency at every phases of work. Therefore, we can provide competitive prices for excellent quality</p>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="images/return.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>We Do It With "Passion"</h3>
+									<p>Above all, we do our with passion. We are very to help our valued customers to achieve their goals and succed in their memorable moment of exhibit. yes, we fo it with "Passion"</p>
 								</div>
 							</div>
 
@@ -204,7 +213,7 @@
 		<!-- End Why Choose Us Section -->
 
 		<!-- Start We Help Section -->
-		<div class="we-help-section">
+		<!-- <div class="we-help-section">
 			<div class="container">
 				<div class="row justify-content-between">
 					<div class="col-lg-7 mb-5 mb-lg-0">
@@ -228,14 +237,15 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- End We Help Section -->
 
 		<!-- Start Popular Product -->
 		<div class="popular-product">
+			<h1>Our Project</h1>
 			<div class="container">
 				<div class="row">
-
+				
 					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
 						<div class="product-item-sm d-flex">
 							<div class="thumbnail">
@@ -379,7 +389,7 @@
 		<!-- End Testimonial Slider -->
 
 		<!-- Start Blog Section -->
-		<div class="blog-section">
+		<!-- <div class="blog-section">
 			<div class="container">
 				<div class="row mb-5">
 					<div class="col-md-6">
@@ -430,7 +440,7 @@
 
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- End Blog Section -->	
 
 		<!-- Start Footer Section -->
@@ -441,7 +451,7 @@
 					<img src="images/sofa.png" alt="Image" class="img-fluid">
 				</div>
 
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-lg-8">
 						<div class="subscription-form">
 							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
@@ -462,7 +472,7 @@
 
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="row g-5 mb-5">
 					<div class="col-lg-4">
