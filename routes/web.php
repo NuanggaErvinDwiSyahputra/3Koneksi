@@ -27,9 +27,3 @@ Route::get('/pdf-register', [RegisterController::class, 'exportpdf'])->name('pdf
 
 Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('/login', [LoginController::class, 'login'])->name('login.auth');
-
-
-
-Route::get('/dataregister', function () {
-    return view('dataregister');
-});
