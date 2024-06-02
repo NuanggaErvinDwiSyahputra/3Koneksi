@@ -49,7 +49,7 @@
 					</ul>
 
 					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-						<li><a class="nav-link" href="#"><img src="{{ asset('images/user.svg') }}"></a></li>
+						<li><a class="nav-link" href="{{ route('login') }}"><img src="{{ asset('images/user.svg') }}"></a></li>
 						
 					</ul>
 				</div>
@@ -66,13 +66,13 @@
 							<div class="intro-excerpt">
 								<h1>Decoration <span class="d-block">Interior Design</span></h1>
 								<p class="mb-4">Tiga Koneksi is a Professional Exhibition Organizer which has been established since 2018. As a growing exhibition contraktor, Tiga Koneksi is powered by solid team of experts and passionate people to serve all the needs of exhibition project at competitive prices. We help our valued customers to achieve their goals and succeed in their memorable moment of exhibit. And we do it with passion</p>
-								<p><a href="" class="btn btn-secondary me-2">Register</a></p>
+								<p><a href="{{ route('register') }}" class="btn btn-secondary me-2">Register</a></p>
 								<!-- <a href="#" class="btn btn-white-outline">Explore</a> -->
 							</div>
 						</div>
 						<div class="col-lg-7">
 							<div class="hero-img-wrap">
-								<img src="images/couch.png" class="img-fluid">
+								<img src="images/Malang.JPG" class="img-fluid">
 							</div>
 						</div>
 					</div>
@@ -81,58 +81,66 @@
 		<!-- End Hero Section -->
 
 		<!-- Start Product Section -->
-		<!-- <div class="product-section">
+		<div class="product-section">
 			<div class="container">
 				<div class="row">
-
+					<h2 class="mb-4 section-title text-center">Our Project</h2>
+						{{-- <p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. </p> --}}
+						{{-- <p><a href="shop.html" class="btn">Explore</a></p> --}}
 					<!-- Start Column 1 -->
-					<!-- <div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
-						<h2 class="mb-4 section-title">Crafted with excellent material.</h2>
-						<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. </p>
-						<p><a href="shop.html" class="btn">Explore</a></p>
-					</div>  --> -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="cart.html">
+							<img src="images/project8.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Stand 4 x 3</h3>
+							{{-- <strong class="product-price">$50.00</strong> --}}
+
+							{{-- <span class="icon-cross">
+								<img src="images/cross.svg" class="img-fluid">
+							</span> --}}
+						</a>
+					</div> 
 					<!-- End Column 1 -->
 
 					<!-- Start Column 2 -->
-					<!-- <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="cart.html">
-							<img src="images/product-1.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Nordic Chair</h3>
-							<strong class="product-price">$50.00</strong>
+							<img src="images/project3.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Stand 3 x 3</h3>
+							{{-- <strong class="product-price">$50.00</strong> --}}
 
-							<span class="icon-cross">
+							{{-- <span class="icon-cross">
 								<img src="images/cross.svg" class="img-fluid">
-							</span>
+							</span> --}}
 						</a>
-					</div>  -->
+					</div> 
 					<!-- End Column 2 -->
 
 					<!-- Start Column 3 -->
-					<!-- <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="cart.html">
-							<img src="images/product-2.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Kruzo Aero Chair</h3>
-							<strong class="product-price">$78.00</strong>
+							<img src="images/project6.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Stand 3 x 2</h3>
+							{{-- <strong class="product-price">$78.00</strong> --}}
 
-							<span class="icon-cross">
+							{{-- <span class="icon-cross">
 								<img src="images/cross.svg" class="img-fluid">
-							</span>
+							</span> --}}
 						</a>
-					</div> -->
+					</div>
 					<!-- End Column 3 -->
 
 					<!-- Start Column 4 -->
-					<!-- <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="cart.html">
-							<img src="images/product-3.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Ergonomic Chair</h3>
-							<strong class="product-price">$43.00</strong>
+							<img src="images/project7.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Stand 6 x 2</h3>
+							{{-- <strong class="product-price">$43.00</strong> --}}
 
-							<span class="icon-cross">
+							{{-- <span class="icon-cross">
 								<img src="images/cross.svg" class="img-fluid">
-							</span>
+							</span> --}}
 						</a>
-					</div> -->
+					</div>
 					<!-- End Column 4 -->
 
 				</div>
@@ -150,9 +158,9 @@
 						<div class="row my-5">
 							<div class="col-6 col-md-6">
 								<div class="feature">
-									<div class="icon">
+									{{-- <div class="icon">
 										<img src="images/truck.svg" alt="Image" class="imf-fluid">
-									</div>
+									</div> --}}
 									<h3>Remarkable Design</h3>
 									<p>Our creative people are very passionate to explorer fresh ideas and transform it into a remarkable design</p>
 								</div>
@@ -160,9 +168,9 @@
 
 							<div class="col-6 col-md-6">
 								<div class="feature">
-									<div class="icon">
+									{{-- <div class="icon">
 										<img src="images/bag.svg" alt="Image" class="imf-fluid">
-									</div>
+									</div> --}}
 									<h3>Excellent Excution</h3>
 									<p>We realized that creativity alone, is not enough. Therefore we have a strong commitment to mantain our work quality. Using good material, and handled carefully by expert and experienced people, we turn the creativity into an our standing booth</p>
 								</div>
@@ -170,9 +178,9 @@
 
 							<div class="col-6 col-md-6">
 								<div class="feature">
-									<div class="icon">
+									{{-- <div class="icon">
 										<img src="images/support.svg" alt="Image" class="imf-fluid">
-									</div>
+									</div> --}}
 									<h3>On Time Completion</h3>
 									<p>In this dynamic exhibition industry, time becomes a major variable that determiner the final result of your booth. We apply a good project management which will results to on a on time booth completion</p>
 								</div>
@@ -180,9 +188,9 @@
 
 							<div class="col-6 col-md-6">
 								<div class="feature">
-									<div class="icon">
+									{{-- <div class="icon">
 										<img src="images/return.svg" alt="Image" class="imf-fluid">
-									</div>
+									</div> --}}
 									<h3>Competitive Price</h3>
 									<p>We emphasize efficiency at every phases of work. Therefore, we can provide competitive prices for excellent quality</p>
 								</div>
@@ -190,9 +198,9 @@
 
 							<div class="col-6 col-md-6">
 								<div class="feature">
-									<div class="icon">
+									{{-- <div class="icon">
 										<img src="images/return.svg" alt="Image" class="imf-fluid">
-									</div>
+									</div> --}}
 									<h3>We Do It With "Passion"</h3>
 									<p>Above all, we do our with passion. We are very to help our valued customers to achieve their goals and succed in their memorable moment of exhibit. yes, we fo it with "Passion"</p>
 								</div>
@@ -241,15 +249,16 @@
 		<!-- End We Help Section -->
 
 		<!-- Start Popular Product -->
-		<div class="popular-product">
-			<h1>Our Project</h1>
+		{{-- <div class="popular-product">
+			<div class="text-center mb-5">
+				<h1>Our Project</h1>
+			</div>
 			<div class="container">
 				<div class="row">
-				
 					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
 						<div class="product-item-sm d-flex">
 							<div class="thumbnail">
-								<img src="images/product-1.png" alt="Image" class="img-fluid">
+								<img src="images/project1.png" alt="Image" class="img-fluid">
 							</div>
 							<div class="pt-3">
 								<h3>Nordic Chair</h3>
@@ -287,7 +296,7 @@
 
 				</div>
 			</div>
-		</div>
+		</div> --}}
 		<!-- End Popular Product -->
 
 		<!-- Start Testimonial Slider -->
@@ -476,8 +485,12 @@
 
 				<div class="row g-5 mb-5">
 					<div class="col-lg-4">
-						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Furni<span>.</span></a></div>
-						<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">3Koneksi</a></div>
+						<p class="mb-4">As a growing exhibition contraktor, Tiga Koneksi is powered by solid team of
+							experts and passionate people to serve all the needs of exhibition project at
+							competitive prices. We help our valued customers to achieve their goals and
+							succeed in their memorable moment of exhibit. And we do it with passion.
+							</p>
 
 						<ul class="list-unstyled custom-social">
 							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
@@ -493,16 +506,8 @@
 								<ul class="list-unstyled">
 									<li><a href="#">About us</a></li>
 									<li><a href="#">Services</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact us</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Support</a></li>
-									<li><a href="#">Knowledge base</a></li>
-									<li><a href="#">Live chat</a></li>
+									{{-- <li><a href="#">Blog</a></li> --}}
+									<li><a href="http://wa.me//+6281333339363">Contact us</a></li>
 								</ul>
 							</div>
 
@@ -527,7 +532,7 @@
 
 				</div>
 
-				<div class="border-top copyright">
+				{{-- <div class="border-top copyright">
 					<div class="row pt-4">
 						<div class="col-lg-6">
 							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>  <!-- License information: https://untree.co/license/ -->
@@ -542,7 +547,7 @@
 						</div>
 
 					</div>
-				</div>
+				</div> --}}
 
 			</div>
 		</footer>
